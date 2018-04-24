@@ -30,5 +30,5 @@ new Vue({
 //    <ul>
 //    <li v-for='item in items'><a :href='item.url'>{{item.name}}</a></li>
 //</ul>
-//<p>华佗商城web短版权归作者所有@2018 all right reserved</p>
+//<p>web短版权归作者所有@2018 all right reserved</p>
 //</div>
