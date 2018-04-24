@@ -1,0 +1,234 @@
+body{
+    background-color: #F0F6F7;
+}
+.search{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+
+ul{
+    margin:0px;
+    padding:0px;
+}
+
+ul li{
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.dh{
+    float: left;
+}
+
+.dh ul li{
+    float: left;
+    margin:0px 30px;
+    padding:10px;
+}
+
+.dh ul li a {
+    color: #666666;
+    text-decoration: none;
+}
+
+.dh-header{
+    float: left;
+    width: 200px;
+    background: 	#1E90FF;
+    color:white;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+.menu-index{
+    float: left;
+    padding: 0px;
+    width:200px;
+    color:#666666;
+    background-color:#eeeeee;
+    font-size: 14px;
+}
+.menu-index li a{
+    text-decoration: none;
+    color:#666666;
+}
+
+
+.menu-index li{
+    margin:0px;
+    padding:10px 0px;
+    text-align: center;
+}
+
+.menu-index li:hover{
+    list-style: none;
+    color: white;
+    background-color: #dddddd;
+}
+.lunbo{
+    float: left;
+    margin-left: 10px;
+    width:600px;
+}
+
+.tuijian{
+    float: left;
+}
+.tuijian ul{
+    float: left;
+    width: 310px;
+    margin-left: 10px;
+}
+.tuijian ul li {
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 18px;
+}
+.tuijian ul li img{
+    width: 150px;
+    height:120px;
+}
+.xianshitejia{
+    padding:20px;
+    color:white;
+    background-color:  	#1E90FF;
+    text-align: center;
+}
+.xss{
+    padding:10px;
+    text-align: center;
+}
+.xss a{
+    text-decoration: none;
+    color: #000;
+}
+.xss img{
+    width: 120px;
+    height:130px;
+
+}
+.xss h4{
+    background-color:  	#1E90FF;
+    color: white;
+    padding:5px
+}
+.xss label{
+    color: #cccccc;
+    background-color: white;
+}
+
+.sale ul li{
+    float: left;
+    width:150px;
+    height:225px;
+    margin-right: 20px;
+    border: solid 1px #cccccc;
+}
+.content{
+    float: left;
+}
+.floors{
+    float: left;
+}
+.floors .p1{
+    float: left;
+    border:solid 1px #cccccc;
+    width: 220px;
+    height:300px;
+}
+.floors .p2{
+    float: left;
+    border:solid 1px #cccccc;
+    width: 350px;
+    height:300px;
+}
+.floors .p1 img{
+    float: left;
+    width: 220px;
+    height:300px;
+}
+.floors .p2 img{
+    float: left;
+    width: 350px;
+    height:300px;
+}
+.floors .p3{
+    float: left;
+
+    width: 320px;
+    height:300px;
+}
+.floors .p4{
+    float: left;
+    width: 220px;
+    height:300px;
+}
+.floors .ps1{
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width:150px;
+    height:147px;
+    border:solid 1px #cccccc;
+}
+.floors .ps2{
+    float: left;
+    width:220px;
+    height:93px;
+    margin-bottom: 10px;
+    border:solid 1px #cccccc;
+}
+.floors .ps1 img{
+    float: left;
+    width:150px;
+    height:147px;
+}
+.floors .ps2 img{
+    float: left;
+    width:220px;
+    height:93px;
+}
+.submenu{
+    position:absolute;
+    top:0px;
+    left:200px;
+    width: 600px;
+    height:400px;
+    z-index: 100;
+    background-color: #eeeeee;
+    padding: 10px;
+}
+
+.submenu ul li{
+    float: left;
+    margin:0px 10px;
+    padding:0px 10px ;
+    background-color: black;
+    margin-bottom: 10px;
+}
+.submenu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.abs{
+    position: relative;
+}
+.footer{
+    text-align: center;
+    margin:30px 0px;
+}
+.footer ul{
+    float: left;
+    padding:0px 100px;
+}
+.footer ul li {
+    float: left;
+    margin:10px 30px;
+}
+.footer ul li a{
+    color: black;
+    text-decoration: none;
+}
