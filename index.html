@@ -85,7 +85,7 @@
 <script>
     function sub(){
         $.ajax({
-            url:"mobileSurveyAction_addSurvey.action",//提交地址
+            url:"http://180.76.112.77:8080/liuyan/add",//提交地址
             data:$("#liuyan").serialize(),//将表单数据序列化
             type:"POST",
             success:function(result){
