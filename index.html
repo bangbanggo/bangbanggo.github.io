@@ -50,11 +50,11 @@
             </div>
             <div class="liuyan">
                 <h4>给我留言</h4>
-                <form name="liuyan" id="liuyan" method="post">
+                <form name="liuyan" id="liuyan" method="post" action="#">
                     <p><textarea rows="4" class="form-control" name="message" placeholder="留言内容"></textarea></p>
                     <h5>谁给我留言</h5>
                     <p><input class="form-control" name="sender" placeholder="你是?"/></p>
-                    <button class="btn btn-default">提交</button>
+                    <button type="button" class="btn btn-default" onclick="sub()">提交</button>
                 </form>
             </div>
             <div class="log">
@@ -83,17 +83,19 @@
 </div>
 </body>
 <script>
-    $.ajax({
-        url:"mobileSurveyAction_addSurvey.action",//提交地址
-        data:$("#liuyan").serialize(),//将表单数据序列化
-        type:"POST",
-        success:function(result){
-            if (result=="true"){
-                alert("留言成功");
-            }else{
-                alert("服务器走神了.");
+    function sub(){
+        $.ajax({
+            url:"mobileSurveyAction_addSurvey.action",//提交地址
+            data:$("#liuyan").serialize(),//将表单数据序列化
+            type:"POST",
+            success:function(result){
+                if (result=="true"){
+                    alert("留言成功");
+                }else{
+                    alert("服务器走神了.");
+                }
             }
-        }
-    });
+        });
+    }
 </script>
 </html>
